@@ -54,6 +54,7 @@ blockquote {
 padding: .2em .5em 0 .5em;
 margin-top: -.2em;
 margin-bottom: 1.3em;
+margin-left: 2em;
 }
 
 blockquote p:last-child {
@@ -358,3 +359,8 @@ hr { color: transparent; }
 #path span { display: none; }
 #contact img { margin-right: 17px; }
 }
+
+blockquote.poem {
+    font-family: KaiTi;
+}
+
