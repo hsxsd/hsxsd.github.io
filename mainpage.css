@@ -209,7 +209,7 @@ td { padding: 0 .5em; }
 table.plain { border-top: none; border-bottom: none; }
 table.plain th { border-bottom: none; }
 
-dd { margin-left: 1.5em; }
+dd { margin-left: 1.5em; font-size: 90%; }
 
 /* Mathematics */
 merror { display: inline; }
