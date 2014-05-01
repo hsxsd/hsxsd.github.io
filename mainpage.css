@@ -36,6 +36,10 @@ font-size: 1em;
 line-height: 1.5em;
 }
 
+dt {
+    margin-top: 10px;
+}
+
 p {
 text-align: justify;
 margin-top: 0;
