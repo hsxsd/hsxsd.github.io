@@ -6,7 +6,9 @@
     <title>PvC博士生论坛 - 2014.04.25</title>   
     <meta name="author" content="焦文均" />
     <link href="../../../impress-demo.css" rel="stylesheet" />
-    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="../../../jmpress.impress.js"></script>
+	
     <style>
     .title {
         text-align: center;
@@ -78,11 +80,6 @@
 </head>
 
 <body class="impress-not-supported">
-
-<div class="fallback-message">
-    <p>您的浏览器<b>不支持</b>impress.js, 这里为您展示的是文档的简化版本。</p>
-    <p>为了更好地观看文档，请使用<b>Chrome</b>、<b>Safari</b>或<b>Firefox</b>浏览器。</p>
-</div>
 
 <div id="impress">
 
@@ -320,8 +317,11 @@ if ("ontouchstart" in document.documentElement) {
 }
 </script>
 
-<script src="../../../impress.js"></script>
-<script>impress().init();</script>
+<script type="text/javascript">
+$(function() {
+	$('#impress').jmpress();
+});
+</script>
 
 </body>
 </html>
