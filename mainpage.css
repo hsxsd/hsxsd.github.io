@@ -293,7 +293,7 @@ code .preproc, code .comment { color: #79737a; }
 code .difflines  { font-weight: bold; } /* diff */
 
 /* Named divs */
-#wrap, #disqus_thread {
+#wrap, #uyan_frame {
 width: 38em;
 overflow: hidden;
 margin: 0 auto 2em auto;
